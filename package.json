@@ -2,9 +2,12 @@
   "name": "deepkit-nx-demo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "node_modules/.bin/deepkit-type-install"
+  },
   "private": true,
   "devDependencies": {
+    "@deepkit/type-compiler": "^1.0.1-alpha.83",
     "@nrwl/eslint-plugin-nx": "15.4.2",
     "@nrwl/jest": "15.4.2",
     "@nrwl/js": "15.4.2",
@@ -26,6 +29,27 @@
     "typescript": "~4.8.2"
   },
   "dependencies": {
+    "@deepkit/api-console-module": "^1.0.1-alpha.85",
+    "@deepkit/app": "^1.0.1-alpha.85",
+    "@deepkit/broker": "^1.0.1-alpha.85",
+    "@deepkit/bson": "^1.0.1-alpha.85",
+    "@deepkit/core": "^1.0.1-alpha.77",
+    "@deepkit/core-rxjs": "^1.0.1-alpha.77",
+    "@deepkit/event": "^1.0.1-alpha.85",
+    "@deepkit/framework": "^1.0.1-alpha.85",
+    "@deepkit/http": "^1.0.1-alpha.85",
+    "@deepkit/injector": "^1.0.1-alpha.85",
+    "@deepkit/logger": "^1.0.1-alpha.77",
+    "@deepkit/mongo": "^1.0.1-alpha.85",
+    "@deepkit/orm": "^1.0.1-alpha.85",
+    "@deepkit/rpc": "^1.0.1-alpha.85",
+    "@deepkit/rpc-tcp": "^1.0.1-alpha.85",
+    "@deepkit/sql": "^1.0.1-alpha.85",
+    "@deepkit/sqlite": "^1.0.1-alpha.85",
+    "@deepkit/stopwatch": "^1.0.1-alpha.85",
+    "@deepkit/template": "^1.0.1-alpha.85",
+    "@deepkit/type": "^1.0.1-alpha.85",
+    "@deepkit/workflow": "^1.0.1-alpha.85",
     "tslib": "^2.3.0"
   }
 }
