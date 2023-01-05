@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@deepkit-nx-demo/lib-controller-test": [
+        "packages/lib-controller-test/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp", "var"],
   "ts-node": {

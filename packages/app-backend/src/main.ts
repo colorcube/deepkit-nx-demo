@@ -1,6 +1,7 @@
 import { App } from '@deepkit/app';
 import { FrameworkModule } from '@deepkit/framework';
 import { ControllerModule } from './app/controller/controller-module';
+import { TestControllerModule } from '@deepkit-nx-demo/lib-controller-test';
 
 
 export class AppConfig {
@@ -16,7 +17,8 @@ new App({
             migrateOnStartup: true,
             httpLog: true,
         }),
-        new ControllerModule()
+        new ControllerModule(),
+        new TestControllerModule()
     ],
 })
     .loadConfigFromEnv()
