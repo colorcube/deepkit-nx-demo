@@ -82,7 +82,7 @@ Other packages include the base config, therefor this needs to be done in tsconf
 
 Is needed for Webpack builds, like `nx serve ...`
 
-A `webpackConfig` entry in all packages/*/projects.json has to be added. See below.
+A `webpackConfig` entry in projects.json has to be added where `"executor": "@nrwl/webpack:webpack"` is used. See below in **projects.json**.
 
 Nx creates the webpack config on the fly. The `webpack-deepkit.config.js` alters the config instead of replacing it.
 
