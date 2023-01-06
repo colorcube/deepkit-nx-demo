@@ -46,7 +46,7 @@ To use Deepkit with Nx a few things needs to be configured.
 You may also have a look into the Deepkit documentation
 https://docs.deepkit.io/english/runtime-types.html#runtime-types-installation
 
-### package.json
+### [package.json](package.json)
 
 The Deepkit type compiler needs to be installed. This can be automated.
 
@@ -60,7 +60,7 @@ The Deepkit type compiler needs to be installed. This can be automated.
 }
 ```
 
-### tsconfig.base.json
+### [tsconfig.base.json](tsconfig.base.json)
 
 The reflection has to be enabled.
 Other packages include the base config, therefor this needs to be done in tsconfig.base.json only.
@@ -78,7 +78,7 @@ Other packages include the base config, therefor this needs to be done in tsconf
 }
 ```
 
-### webpack-deepkit.config.js
+### [webpack-deepkit.config.js](webpack-deepkit.config.js)
 
 Is needed for Webpack builds, like `nx serve ...`
 
@@ -86,7 +86,7 @@ A `webpackConfig` entry in projects.json has to be added where `"executor": "@nr
 
 Nx creates the webpack config on the fly. The `webpack-deepkit.config.js` alters the config instead of replacing it.
 
-### projects.json
+### [project.json](packages%2Fapp-backend%2Fproject.json)
 
 A app package is added to the repository with 
 
@@ -159,6 +159,23 @@ With that config...
 ```gitignore
 /var
 ```
+
+### [.eslintrc.json](.eslintrc.json)
+
+Following eslint rules makes the missing type an error:
+
+```json
+      "rules": {
+        "@typescript-eslint/no-inferrable-types": "off",
+        "@typescript-eslint/typedef": [
+          "error",
+          {
+            "memberVariableDeclaration": true
+          }
+        ]
+      }
+```
+
 
 # Notes
 
