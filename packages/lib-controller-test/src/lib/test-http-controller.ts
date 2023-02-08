@@ -1,4 +1,4 @@
-import { TestService } from './test-service';
+import { TestService } from '@deepkit-nx-demo/lib-book';
 import { HtmlResponse, http } from '@deepkit/http';
 
 export class TestHttpController {
