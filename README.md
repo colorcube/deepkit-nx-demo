@@ -190,6 +190,11 @@ npm install -D @nrwl/node
 nx g @nrwl/node:application app-backend
 ```
 
+Add a lib:
+
+```shell
+npx nx g @nrwl/node:lib lib-book --buildable
+```
 
 ## Understand this workspace
 

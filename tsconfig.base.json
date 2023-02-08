@@ -16,6 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@deepkit-nx-demo/lib-book": ["packages/lib-book/src/index.ts"],
       "@deepkit-nx-demo/lib-controller-test": [
         "packages/lib-controller-test/src/index.ts"
       ]
