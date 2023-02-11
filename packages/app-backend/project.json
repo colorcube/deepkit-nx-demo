@@ -37,7 +37,7 @@
     "start": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "NODE_ENV=development ts-node -r tsconfig-paths/register -P packages/app-backend/tsconfig.app.json packages/app-backend/src/main.ts"
+        "command": "NODE_ENV=development NODE_PRESERVE_SYMLINKS=1 ts-node -r tsconfig-paths/register -P packages/app-backend/tsconfig.app.json packages/app-backend/src/main.ts"
       }
     },
     "start-webpack": {
