@@ -1,0 +1,23 @@
+{
+  "@deepkit/core": "../deepkit-framework/packages/core",
+  "@deepkit/bson": "../deepkit-framework/packages/bson",
+  "@deepkit/type": "../deepkit-framework/packages/type",
+  "@deepkit/mongo": "../deepkit-framework/packages/mongo",
+  "@deepkit/type-compiler": "../deepkit-framework/packages/type-compiler",
+  "@deepkit/sql": "../deepkit-framework/packages/sql",
+  "@deepkit/injector": "../deepkit-framework/packages/injector",
+  "@deepkit/rpc": "../deepkit-framework/packages/rpc",
+  "@deepkit/http": "../deepkit-framework/packages/http",
+  "@deepkit/event": "../deepkit-framework/packages/event",
+  "@deepkit/logger": "../deepkit-framework/packages/logger",
+  "@deepkit/framework": "../deepkit-framework/packages/framework",
+  "@deepkit/app": "../deepkit-framework/packages/app",
+  "@deepkit/postgres": "../deepkit-framework/packages/postgres",
+  "@deepkit/sqlite": "../deepkit-framework/packages/sqlite",
+  "@deepkit/orm": "../deepkit-framework/packages/orm",
+  "@deepkit/orm-browser-module": "../deepkit-framework/packages/orm-browser-module",
+  "@deepkit/framework-debug-api": "../deepkit-framework/packages/framework-debug-api",
+  "@deepkit/framework-debug-gui": "../deepkit-framework/packages/framework-debug-gui",
+  "@deepkit/api-console-module": "../deepkit-framework/packages/api-console-module",
+  "@deepkit/api-console-gui": "../deepkit-framework/packages/api-console-gui"
+}
